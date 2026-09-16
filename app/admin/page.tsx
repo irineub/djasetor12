@@ -380,9 +380,9 @@ export default function AdminPage() {
                             </td>
                             <td className="p-4">
                               <span className={`text-xs px-2 py-1 rounded-full font-medium ${displayStatus === 'PAGO' ? 'bg-green-100 text-green-700' :
-                                  displayStatus === 'PENDENTE' ? 'bg-yellow-100 text-yellow-700' :
-                                    displayStatus === 'EXPIRADO' ? 'bg-red-100 text-red-700' :
-                                      'bg-gray-100 text-gray-700'
+                                displayStatus === 'PENDENTE' ? 'bg-yellow-100 text-yellow-700' :
+                                  displayStatus === 'EXPIRADO' ? 'bg-red-100 text-red-700' :
+                                    'bg-gray-100 text-gray-700'
                                 }`}>
                                 {displayStatus}
                               </span>
@@ -446,7 +446,7 @@ export default function AdminPage() {
                 <div className="space-y-4 text-left">
                   <div className="p-6 bg-yellow-50 border border-yellow-200 rounded-xl relative overflow-hidden">
                     <div className="text-4xl absolute -right-4 -bottom-4 opacity-20">🥇</div>
-                    <div className="text-sm font-bold text-yellow-800 mb-1">1º Prêmio (R$ 300,00)</div>
+                    <div className="text-sm font-bold text-yellow-800 mb-1">1º Prêmio (R$ 200,00)</div>
                     <div className="text-2xl font-bold text-primary-dark">Número: {String(drawResults[0].ficha_rifa).padStart(3, '0')}</div>
                     <div className="text-lg font-medium">{drawResults[0].nome}</div>
                     <div className="text-sm text-muted">{drawResults[0].telefone} - {drawResults[0].cpf}</div>
@@ -462,7 +462,7 @@ export default function AdminPage() {
 
                   <div className="p-6 bg-orange-50 border border-orange-200 rounded-xl relative overflow-hidden">
                     <div className="text-4xl absolute -right-4 -bottom-4 opacity-20">🥉</div>
-                    <div className="text-sm font-bold text-orange-800 mb-1">3º Prêmio (R$ 200,00)</div>
+                    <div className="text-sm font-bold text-orange-800 mb-1">3º Prêmio (R$ 300,00)</div>
                     <div className="text-2xl font-bold text-primary-dark">Número: {String(drawResults[2].ficha_rifa).padStart(3, '0')}</div>
                     <div className="text-lg font-medium">{drawResults[2].nome}</div>
                     <div className="text-sm text-muted">{drawResults[2].telefone} - {drawResults[2].cpf}</div>
