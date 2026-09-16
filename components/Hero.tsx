@@ -5,9 +5,9 @@ export function Hero() {
   return (
     <div className="bg-gradient-to-b from-primary to-primary-dark text-white pt-16 pb-24 relative overflow-hidden">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] opacity-10 pointer-events-none mix-blend-overlay">
-        <Image 
-          src="/logo.png" 
-          alt="Background Logo" 
+        <Image
+          src="/logo.png"
+          alt="Background Logo"
           fill
           className="object-contain"
         />
@@ -30,9 +30,9 @@ export function Hero() {
         <div className="bg-white/10 border border-white/20 rounded-xl p-6 mb-10 max-w-xl mx-auto">
           <h3 className="text-xl font-bold mb-4 text-white">Prêmios no PIX:</h3>
           <ul className="space-y-2 text-lg text-left inline-block">
-            <li className="flex items-center gap-3"><span className="text-2xl">🥇</span> <strong>1º Prêmio:</strong> R$ 200,00</li>
+            <li className="flex items-center gap-3"><span className="text-2xl">🥇</span> <strong>1º Prêmio:</strong> R$ 300,00</li>
             <li className="flex items-center gap-3"><span className="text-2xl">🥈</span> <strong>2º Prêmio:</strong> R$ 250,00</li>
-            <li className="flex items-center gap-3"><span className="text-2xl">🥉</span> <strong>3º Prêmio:</strong> R$ 300,00</li>
+            <li className="flex items-center gap-3"><span className="text-2xl">🥉</span> <strong>3º Prêmio:</strong> R$ 200,00</li>
           </ul>
         </div>
 
