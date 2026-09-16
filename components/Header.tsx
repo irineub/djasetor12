@@ -7,9 +7,9 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 h-20 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-3">
           <div className="relative w-12 h-12">
-            <Image 
-              src="/logo.png" 
-              alt="Dunamis DJA Setor 12 Logo" 
+            <Image
+              src="/logo.png"
+              alt="Dunamis DJA Setor 12 Logo"
               fill
               className="object-contain"
             />
@@ -26,9 +26,7 @@ export function Header() {
           <Link href="#numeros" className="text-white/90 hover:text-white transition-colors font-medium">
             Números
           </Link>
-          <Link href="/admin" className="text-white/90 hover:text-white transition-colors font-medium">
-            Admin
-          </Link>
+
         </nav>
       </div>
     </header>
